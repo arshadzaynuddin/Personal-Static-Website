@@ -1,11 +1,9 @@
 // Define the secret key
-const secretKey = 'yes'; // Replace with your desired key
+const a = 1; // Replace with your desired key
 
-// Use prompt to get user input
-const enteredKey = prompt('Are you Human:');
 
 // Check if the entered key is correct
-if (enteredKey === secretKey) {
+if (a === 1) {
     // Redirect to index.html if the key is correct
     window.location.href = 'index1.html';
 } else {
